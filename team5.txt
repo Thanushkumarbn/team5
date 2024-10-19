@@ -1,0 +1,41 @@
+Team 1: Develop Fault Modeling Equations
+Equations for Fault Types:
+
+Short Circuit Fault:
+I_fault = V_pu / Z_fault-pu
+
+Where:
+- V_pu = Per-unit voltage
+- Z_fault-pu = Per-unit fault impedance
+
+Open Circuit Fault:
+I_fault = 0
+
+Per-Unit System Equations:
+
+Impedance (Z):
+Z_pu = Z_actual / Z_base
+
+Where:
+Z_base = V_base^2 / S_base
+- Z_actual = Actual impedance
+- V_base = Base voltage (reference voltage)
+- S_base = Base apparent power (reference power)
+
+Current (I):
+I_pu = I_actual / I_base
+
+Where:
+I_base = S_base / V_base
+- I_actual = Actual current
+- S_base = Base apparent power
+- V_base = Base voltage
+
+Voltage (V):
+V_pu = V_actual / V_base
+- V_actual = Actual voltage
+- V_base = Base voltage
+
+Fault Scenarios:
+Use equations to model symmetrical and unsymmetrical faults.
+Define parameters like fault impedance for each fault type.
