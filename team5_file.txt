@@ -1,1 +1,29 @@
-..
+TEST CASE 1:Symmetrical Short-Circuit Fault
+Enter base voltage (kV): 11
+Enter base power (MVA): 100
+Enter fault type (short-circuit/open-circuit): short-circuit
+Enter pre-fault voltage (pu): 1.0
+Enter actual fault impedance (ohms): 0.05
+Short-circuit fault: Fault Current (pu) = 22.0
+
+TEST CASE 2:Open-Circuit Fault
+Enter base voltage (kV): 33
+Enter base power (MVA): 150
+Enter fault type (short-circuit/open-circuit): open-circuit
+Enter pre-fault voltage (pu): 1.0
+Open-circuit fault: Fault Current (pu) = 0
+
+TEST CASE 3:Short-Circuit Fault with Higher Impedance
+Enter base voltage (kV): 132
+Enter base power (MVA): 250
+Enter fault type (short-circuit/open-circuit): short-circuit
+Enter pre-fault voltage (pu): 1.0
+Enter actual fault impedance (ohms): 0.2
+Short-circuit fault: Fault Current (pu) = 8.712
+
+TEST CASE 4:Invalid Fault Type
+Enter base voltage (kV): 66
+Enter base power (MVA): 200
+Enter fault type (short-circuit/open-circuit): line-ground
+Invalid fault type entered.
+
