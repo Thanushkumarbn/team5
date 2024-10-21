@@ -1,4 +1,5 @@
 TEST CASES:
+There are three test cases
 
 TEST CASE 1:Symmetrical Short-Circuit Fault
 Enter base voltage (kV): 11
